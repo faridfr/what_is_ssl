@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>What is SSL ?</title>
+    <meta name="description" content="what is ssl ?" />
+    <meta name="author" content="Farid Froozan" />
+    <link href="css/faridfr.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p><p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p></div>
+
+<div id="impress">
+
+   
+    <div id="bored" class="step  center" data-x="-1000" data-y="-1500" >
+        <center><br>
+        <img src="img/4.png"><br>
+        <b>SSL ( Secure Sockets Layer )</b><br>
+        <p style="text-align:center;">Shahrood university of technology<br><span style='color:grey;'>Farid Froozan - FaridFr.ir</span></p>
+        </center>
+    </div>
+
+   
+    <div class="step " data-x="300" data-y="-1500" >
+        <br>
+What is SSL ?
+        <p style="color:grey;">SSL (Secure Sockets Layer) is a standard security protocol for establishing encrypted links between a web server and a browser in an online communication.
+The usage of SSL technology ensures that all data transmitted between the web server and browser remains encrypted.
+An SSL certificate is necessary to create SSL connection. You would need to give all details about the identity of your website and your company as and when you choose to activate SSL on your web server. Following this, two cryptographic keys are created - a Private Key and a Public Key.</p>
+        
+       
+    </div>
+	
+	 <div class="step " data-x="300" data-y="-2500" >
+        <q>
+        <center><img src="img/7.png" width="500"></center>
+        <p style="font-size:20px;">The next step is the submission of the CSR (Certificate Signing Request), which is a data file that contains your details as well as your Public Key. The CA (Certification Authority) would then validate your details. Following successful authentication of all details, you will be issued SSL certificate. The newly-issued SSL would be matched to your Private Key. From this point onwards, an encrypted link is established by your web server between your website and the customer's web browser.<br>
+</p>
+        </q>
+    </div>
+
+     <div class="step " data-x="300" data-y="-3500" >
+        <q>
+        <center><img src="img/1.png" width="600"></center>
+        <p style="font-size:20px;">
+On the apparent level, the presence of an SSL protocol and an encrypted session is indicated by the presence of the lock icon in the address bar. A click on the lock icon displays to a user/customer details about your SSL. It's to be remembered that SSL Certificates are issued to either companies or legally accountable individuals only after proper authentication.<br>
+</p>
+        </q>
+    </div>
+
+   
+     <div class="step " data-x="300" data-y="-4500" >
+        <q>
+        <center><img src="img/2.png" width="700"></center>
+        <p style="font-size:20px;">
+An SSL Certificate comprises of your domain name, the name of your company and other things like your address, your city, your state and your country. It would also show the expiration date of the SSL plus details of the issuing CA. Whenever a browser initiates a connection with a SSL secured website , it will first retrieve the site's SSL Certificate to check if it's still valid. It's also verified that the CA is one that the browser trusts, and also that the certificate is being used by the website for which it has been issued. If any of these checks fail, a warning will be displayed to the user, indicating that the website is not secured by a valid SSL certificate.</p>
+        </q>
+    </div>
+
+
+    <div class="step" data-x="2000" data-y="-1500" data-scale="2"  data-rotate-x="-20" data-rotate-y="10">
+         <q><b>What is SSL used for ?</b>
+      <p style="font-size:19px;">The SSL protocol is used by millions of online business to protect their customers, ensuring their online transactions remain confidential. A web page should use encryption when it expects users to submit confidential data, including personal information, passwords, or credit card details. All web browsers have the ability to interact with secured sites so long as the site's certificate is issued by a trusted CA.</p>
+        </q>
+    </div>
+
+    <div class="step" data-x="3000" data-y="-2100" data-scale="2" data-z="-100" data-rotate-x="-40" data-rotate-y="30" >
+        <q><b>Why do I need SSL certificate?</b>
+      <p style="font-size:19px;">The internet has spawned new global business opportunities for enterprises conducting online commerce. However, that growth has also attracted fraudsters and cyber criminals who are ready to exploit any opportunity to steal consumer bank account numbers and card details. Any moderately skilled hacker can easily intercept and read the traffic unless the connection between a client (e.g. internet browser) and a web server is encrypted.</p>
+        </q>
+    </div>
+
+    <div class="step" data-x="3000" data-y="-3100" data-scale="2" data-z="-200" data-rotate-x="-60" data-rotate-y="50" >
+        <q><b>How Does SSL Work ?</b>
+      <p style="font-size:19px;">
+       The following graphic explains how SSL Certificate works on a website. The process of how an 'SSL handshake' takes place is explained below:</p>
+        </q>
+    </div>
+
+
+    <div class="step" data-x="3500" data-y="-4900" data-scale="2" data-z="-300" data-rotate-x="-80" data-rotate-y="70" >
+        <q><center><img src="img/5.png" width="700"></center>
+      <p style="font-size:17px;">- <b>Browser</b> connects to a web server (website) secured with SSL (https). Browser requests that the server identify itself.<br>
+
+- <b>Server</b> sends a copy of its SSL Certificate, including the server’s public key.<br>
+
+- <b>Browser</b> checks the certificate root against a list of trusted CAs and that the certificate is unexpired, unrevoked, and that its common name is valid for the website that it is connecting to. If the browser trusts the certificate, it creates, encrypts, and sends back a symmetric session key using the server’s public key.<br>
+
+- <b>Server</b> decrypts the symmetric session key using its private key and sends back an acknowledgement encrypted with the session key to start the encrypted session.<br>
+
+- <b>Server and Browser</b> now encrypt all transmitted data with the session key.</p>
+        </q>
+    </div>
+	
+
+	
+
+	
+
+	<div class="step" data-x="0" data-y="1000" data-scale="3">
+        <q><b>http://parspack.com/ssl</b>
+      <p style="font-size:17px;">Free , Domain validation , Organization Validation , Extended Validation</p>
+        </q>
+    </div>
+	
+	<div class="step" data-x="0" data-y="1500" data-z="-500" data-scale="2" >
+        <q><b>https://pars.host/ssl/</b>
+      <p style="font-size:17px;">dv , ssl wildcard , Multi-Domain , ...</p>
+        </q>
+    </div>
+
+    <div class="step" data-x="0" data-y="2000" data-z="-1000" data-scale="1" >
+        <q>https://www.bertina.ws/ssl
+      <p style="font-size:17px;">dv , ov , ev</p>
+        </q>
+    </div>
+
+    <div class="step" data-x="0" data-y="2500" data-z="-1500" data-scale="1" >
+        <q>https://www.cloudflare.com/ssl/
+      <p style="font-size:17px;">free , pro , business , enterprise</p>
+        </q>
+    </div>
+
+
+    <div class="step" data-x="0" data-y="3000" data-z="-2000" data-scale="1" >
+       <video preload controls autoplay>
+  	<source src="img/video.mp4" type="video/mp4">
+	</video>
+    </div>
+
+
+    
+
+ <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="15">
+    </div>
+
+
+</div>
+<!-- 
+<div class="hint">
+    By : Farid Froozan ( FaridFr.ir )
+</div>
+ -->
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>use space key to move</p>";
+}
+</script>
+
+<script src="js/faridfr.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
